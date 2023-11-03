@@ -1,5 +1,6 @@
 # Credit-scrore-classifiction
-Machine  Learning Project- This project aims to find the best model that is able to classify the credit score data. To validate the results with the helps of plots and explanation.
+
+This project aims to find the best model that is able to classify the credit score data. To validate the results with the helps of plots and explanation.
 
 Data pre-processing
 
