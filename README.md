@@ -16,6 +16,7 @@ Dataset use - https://www.kaggle.com/code/ayanada/credit-score-classification/in
 
 
 Feature selection
+
 Three types of feature set were considered for the analysis-
 • one with all the features from the original dataset (figure 1).
 • features extracted using chi square, F statistic and mutual information scores. The scores from chi square, F statistic and mutual information was normalised using the min and max value to a range of 0-1. The features that have very low value (¡0.5) in all the three metric have been removed. Figure 2 shows the value of chi square, F statistic and mutual information for all the features. The red line indicates the features that have low value is all the three metrics that will be removed. [’Num Bank Accounts’, ’Num Credit Card’, ’Interest Rate’, ’Num of Loan’, ’Delay from due date’, ’Num of Delayed Payment’, ’Num Credit Inquiries’, ’Credit Mix’, ’Outstanding Debt’, ’Credit History Age’, ’Payment of Min Amount’]
@@ -23,6 +24,7 @@ Three types of feature set were considered for the analysis-
 
  
 Models considered
+
 For this project, the following different models were selected - Analyzed different models:
 • Logistic regression - started with the simple classifier which would act as a base learner. This would be useful for feature generation.
 • Decision trees - easy to implement but has high variance and expected to overfit for large depth.
@@ -32,6 +34,7 @@ For this project, the following different models were selected - Analyzed differ
 • Neural network - it is a self-learner and universal function approximator. All the above models will be tested using five fold cross validation.
 
 Metrics
+
 The models were compared based on the followwing metrics -
 • train accuracy
 • test accuracy
