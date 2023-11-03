@@ -2,6 +2,7 @@
 Machine  Learning Project- This project aims to find the best model that is able to classify the credit score data. To validate the results with the helps of plots and explanation.
 
 Data pre-processing
+
 The data-set has been loaded from Kaggle. It consists of 27 features with 100000 examples after data cleaning. A train test split was done on the dataset to get a training set of 80000 examples and a testing set of 20000 examples. It consists of multiple classes - good, bad and standard respectively.
 The purpose of analysing on this topic is to figure out how the features influenced the performance of the model. Some of the challenges faced were as follows -
 • dealing with mixed data as categorical, metadata and continuous data type. • examining different metric for feature selection
